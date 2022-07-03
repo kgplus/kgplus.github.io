@@ -30,6 +30,23 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <script>
+        var isNS = (navigator.appName == "PN") ? 1 : 0;
+        if(navigator.appName == "PN") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+        function mischandler(){
+        return false;
+        }
+        function mousehandler(e){
+        var myevent = (isNS) ? e : event;
+        var eventbutton = (isNS) ? myevent.which : myevent.button;
+        if((eventbutton==2)||(eventbutton==3)) return false;
+        }
+        document.oncontextmenu = mischandler;
+        document.onmousedown = mousehandler;
+        document.onmouseup = mousehandler;
+        </script>
+
 </head>
 
 <body>
@@ -47,7 +64,7 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-3">
                     <a class="text-body px-2" href="tel:+971555559620"><i class="fa fa-phone-alt text-primary me-2"></i>+971 55 555 9620</a>
-                    <a class="text-body px-2" href="mailto:info@kgplusint.com"><i class="fa fa-envelope-open text-primary me-2"></i>info@kgplusint.com</a>
+                    <a class="text-body px-2" href="mailto:info@kg-intl.com"><i class="fa fa-envelope-open text-primary me-2"></i>info@kg-intl.com</a>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -71,7 +88,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0"><img class="me-3" src="img/icons/icon-1.png" alt="Icon">KG PLUS</h1>
+            <h1 class="text-primary m-0"><img class="me-3" src="img/own/logo/kglogo.png" alt="Icon"><img src="/img/own/logo/kgplus.png"></h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -180,7 +197,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; 2022 <a href="">kgplusint</a>, All Right Reserved.
+                        &copy; 2022 <a href="">KG Plus architecture Studio</a>, All Right Reserved.
                     </div>
                     
                 </div>
