@@ -1,0 +1,13 @@
+
+body, section#careeer-page .form-control , div#owl-demo-division .item h3, .nav-menu ul, .nav-menu select, .search_header.f-right, div.fancybox-inner > div.team-pop p, .clearfix.boxed.footer_inner, .footer_inner .ul, .sub-box, .sel-in, ::-webkit-input-placeholder, .print-opt ul li, .manag-sec, .mana-team .col-md-4.col-sm-4.col-xs-12 , .modal-footer, .str , .team-pop ul strong, .sects li, .team-pop h3, .team-pop.divi-in ul li, section#careeer-page .form-control, iframe.map-ifr .col-lg-4.col-md-4, .modal-body p, .nav-menu ul li, .footer_inner .ul , .search_header.f-right, section#philoso a
+{
+	direction: rtl !important;
+	text-align:right !important;
+}
+
+div, p, span, h1, h2, h3, h4, h5, h6, a, ul, li, body
+{
+	direction: rtl !important;
+	text-align:right !important;
+}
+
