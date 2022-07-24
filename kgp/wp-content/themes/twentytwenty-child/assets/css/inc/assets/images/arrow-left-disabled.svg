@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="20px" viewBox="0 0 48 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>arrow-left</title>
+    <desc>Created with Sketch.</desc>
+    <g id="New-Styles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-1438.000000, -2193.000000)" fill="#CACACA">
+            <g id="Featured-Communities" transform="translate(140.000000, 2130.000000)">
+                <g id="Title">
+                    <g id="arrow-right/disabled" transform="translate(1322.000000, 73.000000) scale(-1, 1) translate(-1322.000000, -73.000000) translate(1298.000000, 63.000000)">
+                        <path d="M7.70710678,-6.81192283 L39.5,24.9800772 L39.5,12.6880772 L40.5,12.6880772 L40.5,26.6880772 L26.5,26.6880772 L26.5,25.6880772 L38.792,25.6880772 L7,-6.10481605 L7.70710678,-6.81192283 Z" id="Combined-Shape" transform="translate(23.750000, 9.938077) rotate(-45.000000) translate(-23.750000, -9.938077) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
