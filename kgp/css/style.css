@@ -33,7 +33,7 @@ input, select, textarea { font-family: 'Roboto', sans-serif; }
 
 .container {
    width: 1800px;
-   max-width: 94%;
+   
 }
 
 #layoutMain { width:100%; float:left; height:100%; }
