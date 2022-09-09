@@ -220,7 +220,7 @@ img.emoji {
   </script>
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"http:\/\/www.al-hamad.com","hash_tracking":"false"};
@@ -384,7 +384,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 </a></div>
               </div>
                             <div id="inline-mail-div." style="display: none;" class="team-pop" >
-                <form name="contact_form" class="key_conatctForm" id="key_conatctForm_0" method="post" rel="0" >
+                <form name="contact_form" class="key_conatctForm" id="submit-form" method="post" rel="0" >
                   <div class="formResponse" id="formResponse_0"></div>
                   <div> <span>Name</span> <span>
                     <input type="text"  name="name" class="form-control required" id="user_name_0">
@@ -591,6 +591,27 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                 </form>
               </div>
                           </div>
+
+                          <script>
+                            $("#submit-form").submit((e)=>{
+                            e.preventDefault()
+                            $.ajax({
+                            url:"https://script.google.com/macros/s/AKfycbwa7MbrZf6zpn9pKIsqEHCyN9nUPM86-Y_kemGRKSmOZdIBqIaSgfUWvrguR9BBbmwK/exec",
+                            data:$("#submit-form").serialize(),
+                            method:"post",
+                            success:function (response){
+                            alert("Our sales team will contact you shortly. Thank you!")
+                            window.location.reload()
+                            //window.location.href="https://google.com"
+                            },
+                            error:function (err){
+                            alert("Something Error")
+                            
+                            }
+                            })
+                            })
+                            </script>
+
             <!-- End Inner --> </section>
         </div>
       </div>
