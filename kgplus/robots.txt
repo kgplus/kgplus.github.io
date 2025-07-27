@@ -1,0 +1,14 @@
+User-agent: HTTrack
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: *
+Disallow: /private/
