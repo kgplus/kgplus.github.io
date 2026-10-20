@@ -1,0 +1,44 @@
+[
+  {
+    "file": "architecture.html",
+    "title": "Architecture & Spatial Design",
+    "description": "We develop architectural concepts shaped by place, purpose, proportion, and the people who will experience them.",
+    "icon": "fa-drafting-compass",
+    "image": "photo-1600607687939-ce8a6c25118c"
+  },
+  {
+    "file": "interior-design.html",
+    "title": "Interior Design",
+    "description": "Thoughtful interiors bring materiality, light, texture, and function into balance. We create spaces with character and a clear design identity.",
+    "icon": "fa-couch",
+    "image": "photo-1600210492486-724fe5c67fb0"
+  },
+  {
+    "file": "concept-development.html",
+    "title": "Concept Development & Design Direction",
+    "description": "We translate early ideas into a coherent creative vision through research, spatial exploration, moodboards, and material direction.",
+    "icon": "fa-lightbulb",
+    "image": "photo-1600607687920-4e2a09cf159d"
+  },
+  {
+    "file": "residential-design.html",
+    "title": "Residential Design",
+    "description": "From private residences to contemporary villas and apartments, we tailor living spaces to individual lifestyles and aspirations.",
+    "icon": "fa-house",
+    "image": "photo-1600566753086-00f18fb6b3ea"
+  },
+  {
+    "file": "commercial-hospitality.html",
+    "title": "Commercial & Hospitality Design",
+    "description": "Distinctive environments for work, retail, dining, and hospitality—designed to support the brand, the user, and the experience.",
+    "icon": "fa-hotel",
+    "image": "photo-1511818966892-d7d671e672a2"
+  },
+  {
+    "file": "space-planning.html",
+    "title": "Space Planning & Interior Detailing",
+    "description": "We refine layouts, circulation, furniture, finishes, and details to bring clarity and precision to each environment.",
+    "icon": "fa-ruler-combined",
+    "image": "photo-1600607687920-4e2a09cf159d"
+  }
+]
